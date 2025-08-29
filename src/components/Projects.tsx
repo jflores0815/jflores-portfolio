@@ -12,6 +12,26 @@ import { useState } from "react";
 const Projects = () => {
   const projects = [
     {
+      title: "Al Mashoor",
+      description:
+        "Developed a website for Al Mashoor Domestic Workers Services Center a licensed recruitment agency with 20+ years of industry experience. ",
+      image: "/api/placeholder/600/400",
+      technologies: [
+        "HTML",
+        "Laravel",
+        "PHP",
+        "CSS",
+        "MySQL",
+        "Linode",
+        "Nginx",
+      ],
+      category: "Full-Stack",
+      categoryIcon: Globe,
+      liveUrl: "#",
+      githubUrl: "#",
+      featured: true,
+    },
+    {
       title: "Dentistry in 3D (threejs)",
       description:
         "Web App that loads 3D teeth models, allows individual tooth color changes. Advanced 3D visualization and interactive dental modeling application.",
@@ -62,7 +82,7 @@ const Projects = () => {
         "System Analysis",
         "Oracle Database",
       ],
-      category: "Backend",
+      category: "Full-Stack",
       categoryIcon: Code,
       liveUrl: "#",
       githubUrl: "#",
