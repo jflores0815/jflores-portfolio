@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import { User, MapPin, Calendar, Mail, Phone, Globe } from "lucide-react";
-import * as React from "react";
 
 const About = () => {
   const personalInfo = [
