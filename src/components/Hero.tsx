@@ -85,7 +85,7 @@ const Hero = () => {
               Download CV
             </button> */}
             <a
-              href="/assets/resume/FLORES_RESUME.pdf"
+              href="/jflores-portfolio/assets/resume/FLORES_RESUME.pdf"
               download="FLORES_RESUME.pdf"
               className="btn-secondary inline-flex items-center gap-2"
             >
