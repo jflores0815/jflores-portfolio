@@ -4,11 +4,10 @@ import {
   Github,
   Eye,
   Code,
-  Smartphone,
+  // Smartphone,
   Globe,
 } from "lucide-react";
 import { useState } from "react";
-import * as React from "react";
 
 const Projects = () => {
   const projects = [

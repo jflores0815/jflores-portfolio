@@ -3,11 +3,10 @@ import {
   Code,
   Database,
   Cloud,
-  Palette,
-  Smartphone,
+  // Palette,
+  // Smartphone,
   Globe,
 } from "lucide-react";
-import * as React from "react";
 
 const Skills = () => {
   const skillCategories = [

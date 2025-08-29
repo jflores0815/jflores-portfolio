@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import { ChevronDown, Download, Mail } from "lucide-react";
-import * as React from "react";
 
 const Hero = () => {
   const scrollToAbout = () => {
