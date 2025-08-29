@@ -8,6 +8,7 @@ import Experience from "./components/Experience";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import ThemeToggle from "./components/ThemeToggle";
+import * as React from "react";
 
 function App() {
   const [darkMode, setDarkMode] = useState(() => {
