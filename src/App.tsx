@@ -7,10 +7,10 @@ import Projects from "./components/Projects";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import ThemeToggle from "./components/ThemeToggle";
+// import ThemeToggle from "./components/ThemeToggle";
 
 function App() {
-  const [darkMode, setDarkMode] = useState(() => {
+  const [darkMode, _setDarkMode] = useState(() => {
     const saved = localStorage.getItem("darkMode");
     return saved ? JSON.parse(saved) : false;
   });
@@ -30,7 +30,7 @@ function App() {
         darkMode ? "dark" : ""
       }`}
     >
-      <ThemeToggle darkMode={darkMode} setDarkMode={setDarkMode} />
+      {/* <ThemeToggle darkMode={darkMode} setDarkMode={setDarkMode} /> */}
       <Navbar />
       <main>
         <Hero />
