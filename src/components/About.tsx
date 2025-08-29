@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { User, MapPin, Calendar, Mail, Phone, Globe } from "lucide-react";
+import { MapPin, Calendar, Mail, Phone, Globe } from "lucide-react";
 
 const About = () => {
   const personalInfo = [
@@ -36,13 +36,12 @@ const About = () => {
             className="space-y-8"
           >
             {/* Profile Image */}
-            <div className="relative">
-              <div className="w-64 h-64 sm:w-72 sm:h-72 md:w-80 md:h-80 mx-auto relative">
-                <div className="absolute inset-0 bg-gradient-to-br from-primary-400 to-primary-600 rounded-full opacity-20 blur-xl"></div>
-                <div className="relative w-full h-full bg-gradient-to-br from-primary-100 to-primary-200 dark:from-primary-900 dark:to-primary-800 rounded-full flex items-center justify-center">
-                  <User className="w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 text-primary-600 dark:text-primary-400" />
-                </div>
-              </div>
+            <div className="w-64 h-64 sm:w-72 sm:h-72 md:w-80 md:h-80 mx-auto relative">
+              <img
+                src="/jflores-portfolio/assets/images/Flores_Pic.jpg"
+                alt="Profile"
+                className="w-full h-full object-cover rounded-full"
+              />
             </div>
 
             {/* Personal Information */}
