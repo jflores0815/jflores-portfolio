@@ -14,7 +14,7 @@ const Contact = () => {
   const [isSubmitted, setIsSubmitted] = useState(false);
 
   const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
   ) => {
     setFormData({
       ...formData,
@@ -49,8 +49,8 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Phone",
-      value: "(0929)460-6692",
-      link: "tel:+639294606692",
+      value: "(0969)174-7897",
+      link: "tel:+639691747897",
     },
     {
       icon: MapPin,

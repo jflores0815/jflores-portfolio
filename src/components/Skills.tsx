@@ -90,10 +90,11 @@ const Skills = () => {
         { name: "Git", level: 85, color: "from-gray-700 to-gray-800" },
         {
           name: "Linux Ubuntu Server",
-          level: 75,
+          level: 80,
           color: "from-orange-500 to-orange-600",
         },
-        { name: "NGINX", level: 70, color: "from-green-500 to-green-600" },
+        { name: "NGINX", level: 75, color: "from-green-500 to-green-600" },
+        { name: "Keycloak", level: 70, color: "from-green-500 to-orange-600" },
         { name: "Linode", level: 90, color: "from-blue-500 to-blue-600" },
         {
           name: "Oracle VM VirtualBox",

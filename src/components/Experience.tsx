@@ -4,6 +4,58 @@ import { Calendar, MapPin, Building, ExternalLink } from "lucide-react";
 const Experience = () => {
   const experiences = [
     {
+      title: "Senior Backend Developer",
+      company: "Dvote Software Corporation",
+      location: "Philippines",
+      period: "09/2025 - 01/2026",
+      description:
+        "Developed scalable backend systems for healthcare applications, building secure APIs and centralized medical platforms to support digital health services and patient management.",
+      achievements: [
+        "Developed and enhanced backend services for the mWell health and wellness platform",
+        "Improved the HealthHub system for appointment scheduling, medical record management, and clinic workflows",
+        "Designed and implemented a Unified Electronic Medical Records (EMR) system to centralize patient data",
+        "Built and optimized RESTful APIs using Node.js and TypeScript for telemedicine and healthcare services",
+        "Collaborated with cross-functional teams to improve system performance, scalability, and reliability",
+        "Implemented secure backend architecture and best practices for handling sensitive medical data",
+      ],
+      technologies: [
+        "Node.js",
+        "TypeScript",
+        "GraphQL",
+        "Jira",
+        "Confluence",
+        "Azure",
+        "Git",
+        "Keycloak",
+        "Reactjs",
+      ],
+    },
+    {
+      title: "Lead Software Developer",
+      company: "Inspire Next Global Inc.",
+      location: "Philippines",
+      period: "06/2025 - 08/2025",
+      description:
+        "Led the development of fintech and real estate solutions, building scalable web applications and backend systems while overseeing the complete software development lifecycle.",
+      achievements: [
+        "Led a cross-functional team in developing an Investor Wallet platform for Japanese and Filipino clients",
+        "Designed and developed scalable backend services and RESTful APIs using Node.js and TypeScript",
+        "Built core features including deposit processing, investment tracking, and portfolio dashboards",
+        "Collaborated with stakeholders to translate business requirements into technical solutions",
+        "Optimized system performance, security, and database efficiency for financial applications",
+        "Managed the end-to-end development lifecycle, including planning, code reviews, deployment, and mentoring developers",
+      ],
+      technologies: [
+        "Node.js",
+        "TypeScript",
+        "React",
+        "REST API",
+        "Google Firebase",
+        "React Native",
+        "Expo Go",
+      ],
+    },
+    {
       title: "IT Engineer / Software Engineer",
       company: "Fundamental IT Solutions",
       location: "Philippines",
@@ -21,8 +73,10 @@ const Experience = () => {
         "TypeScript",
         "React",
         "Node.js",
-        "Mobile Development",
-        "Web Development",
+        "Expo Go",
+        ".NET",
+        "PHP",
+        "MySQL",
       ],
     },
     {
@@ -38,14 +92,7 @@ const Experience = () => {
         "Managed development team and project timelines",
         "Implemented critical systems for government regulatory processes",
       ],
-      technologies: [
-        "Oracle Forms",
-        "PL/SQL",
-        "Oracle Database",
-        "Web Development",
-        "Team Leadership",
-        "Project Management",
-      ],
+      technologies: ["PHP", "Laravel", "MySQL", "Linux Server", "Nginx"],
     },
     {
       title: "Front-End Engineer",
@@ -61,7 +108,7 @@ const Experience = () => {
         "Collaborated with design and backend teams for seamless integration",
       ],
       technologies: [
-        "React",
+        "Reactjs",
         "JavaScript",
         "HTML/CSS",
         "Mobile Development",
@@ -83,11 +130,11 @@ const Experience = () => {
         "Implemented database solutions and API endpoints",
       ],
       technologies: [
-        "PHP",
-        "JavaScript",
+        "Go",
+        "Gin Framework",
         "API Development",
-        "Database Management",
-        "Web Development",
+        "MySQL",
+        "Reactjs",
         "Technical Support",
       ],
     },
@@ -207,7 +254,7 @@ const Experience = () => {
                               <span className="w-1.5 h-1.5 bg-primary-600 rounded-full mt-2 flex-shrink-0"></span>
                               {achievement}
                             </li>
-                          )
+                          ),
                         )}
                       </ul>
                     </div>

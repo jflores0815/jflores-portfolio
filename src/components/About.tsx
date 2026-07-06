@@ -4,9 +4,9 @@ import { MapPin, Calendar, Mail, Phone, Globe } from "lucide-react";
 const About = () => {
   const personalInfo = [
     { icon: MapPin, label: "Location", value: "San Juan City, PH" },
-    { icon: Calendar, label: "Experience", value: "8+ Years" },
+    { icon: Calendar, label: "Experience", value: "9+ Years" },
     { icon: Mail, label: "Email", value: "jaimeflores0815@gmail.com" },
-    { icon: Phone, label: "Phone", value: "(0929)460-6692" },
+    { icon: Phone, label: "Phone", value: "(0969)174-7897" },
     { icon: Globe, label: "Education", value: "BS Information Technology" },
   ];
 
@@ -82,7 +82,7 @@ const About = () => {
             </h3>
 
             <p className="text-base sm:text-lg text-dark-600 dark:text-gray-300 leading-relaxed text-justify">
-              I'm a dedicated Information Technology professional with over 8
+              I'm a dedicated Information Technology professional with over 9
               years of experience in software development, web applications, and
               mobile solutions. My journey in technology began with a strong
               foundation in Oracle technologies and has evolved to encompass
@@ -108,7 +108,7 @@ const About = () => {
             {/* Key Highlights */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-6">
               <div className="text-center p-4 bg-primary-50 dark:bg-primary-900/20 rounded-lg">
-                <div className="text-2xl font-bold text-primary-600">8+</div>
+                <div className="text-2xl font-bold text-primary-600">9+</div>
                 <div className="text-sm text-dark-600 dark:text-gray-400">
                   Years Experience
                 </div>
